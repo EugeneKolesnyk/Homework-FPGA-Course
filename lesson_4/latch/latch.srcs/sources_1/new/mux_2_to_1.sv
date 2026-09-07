@@ -21,8 +21,8 @@ module mux_2_to_1(
 
         case(sel)
             1'b0: out = in[0];
-//            1'b1: out = in[1];
-//            default: out = 0;
+            1'b1: out = in[1];
+            default: out = 0;
         endcase 
     end
 endmodule
